@@ -1,5 +1,6 @@
 # Changelog
 
+<<<<<<< HEAD
 ### 35.0.3 [#961](https://github.com/openfisca/openfisca-core/pull/961)
 
 #### Technical changes
@@ -15,6 +16,17 @@
 - Update dependency: `flask-cors` (`Flask` extension for Cross Origin Resouce Sharing)
 
 ### 35.0.1 [#968](https://github.com/openfisca/openfisca-core/pull/968)
+=======
+### 35.1.0 [#964](https://github.com/openfisca/openfisca-core/pull/964)
+
+#### Technical changes
+
+- Added new _dependencies_ API end point to find the dependent input variables of a variable
+- Added a new property in variables.py to enable this.
+- Clarified API documentation for _trace_ endpoint
+
+# 35.0.1 [#968](https://github.com/openfisca/openfisca-core/pull/968)
+>>>>>>> f0d314f4cbbb8e53c9002cdce752c5c595dfd062
 
 #### Technical changes
 
