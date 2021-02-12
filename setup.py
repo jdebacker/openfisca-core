@@ -45,7 +45,6 @@ setup(
         'License :: OSI Approved :: GNU Affero General Public License v3',
         'Operating System :: POSIX',
         'Programming Language :: Python',
-        'Programming Language :: Python :: 3.6',
         'Programming Language :: Python :: 3.7',
         'Topic :: Scientific/Engineering :: Information Analysis',
         ],
@@ -53,7 +52,7 @@ setup(
     keywords = 'benefit microsimulation social tax',
     license = 'https://www.fsf.org/licensing/licenses/agpl-3.0.html',
     url = 'https://github.com/openfisca/openfisca-core',
-
+    python_requires = ">=3.7",
     data_files = [
         ('share/openfisca/openfisca-core', ['CHANGELOG.md', 'LICENSE', 'README.md']),
         ],
