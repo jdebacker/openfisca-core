@@ -32,7 +32,7 @@ tags:
 paths:
   /dependencies:
     post:
-      summary: "Find the dependent input variables of an OpenFisca Variable. This simply looks for constant strings and checks if they are variables in the entity. It will not work if you construct the strings programatically."
+      summary: "Count the occurrences of the dependent input variables of an OpenFisca Variable. This simply looks for constant strings and checks if they are variables in the entity. It will not work if you construct the strings of variable names programatically."
       tags:
         - Calculations
       operationId: "dependencies"
